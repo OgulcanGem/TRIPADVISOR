@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Tavsiye</title>
+</head>
+<body>
+  <h1>Tatil İçin En İyi Gün {{ city }} şehrinin {{ year }} yılı </h1>
+  <p><strong>Önerilen Tarih:</strong> {{ recommended }}</p>
+  <h2>Skor Analizi</h2>
+  <ul>
+    <li>Kalabalık Skoru: {{ crowd|round(2) }}</li>
+    <li>Fiyat Skoru: {{ price|round(2) }}</li>
+    <li>Hava Skoru: {{ weather|round(2) }}</li>
+    <li><strong>Toplam Skor:</strong> {{ composite|round(2) }}</li>
+  </ul>
+  <p><a href="/"> Tekrar Dene </a></p>
+</body>
+</html>

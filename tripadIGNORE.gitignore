@@ -1,0 +1,19 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Diğer
+*.sqlite3
+instance/
+*.log
